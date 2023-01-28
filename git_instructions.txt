@@ -1,0 +1,13 @@
+Make a branch (git branch <branch name> )
+Switch to a branch ( git checkout <branch name>)......If the branch is already exist on github then use: git switch <branch name>
+Make some changes using nano or touch command
+check git status if the file is modified in red (red means changes are made but not applied)
+write a command to apply changes on the branch : git add .
+check git status if the file is modified in green (green means changes are applied)
+write a command to commit changes: git commit -m"any comment related to change"
+push a file in github using : git push
+Now create a pull request and compare the master or main branch with the branch you have made.....Now wait for the approval from your instructors
+once the changes are apporved, merge the pull request
+
+changes have been made 
+
