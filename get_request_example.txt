@@ -1,0 +1,14 @@
+from fastapi import FastAPI
+
+app=FastAPI()
+
+@app.get("/<any end point>"
+def main():
+   return {"Message" : "Hello World"}
+
+
+
+
+After this code, type in terminal
+
+uvicorn <filename>:app --reload
